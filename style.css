@@ -1,21 +1,23 @@
 body {
-    backgrund-color: #FFFFE0; /" warna kuning cerah "/
-    font-family: Arial, sans-serif; /" jenis huruf yang bersih dan mudah
-    color: #191970; /" warna teks utama (biru gelap) "/
+    background-color: #FFFFE0; /* warna kuning cerah */
+    /* perbaikan 1: meambahkan titik koma (;) yang hilang */
+    font-family: Arial, sans-serif;
+    color: #191970; /* warna teks utama (biru gelap) */
 }
 
 .kartu-profil {
-    Width: 300px;
-    margin: 50px auto; /" 50px jarak atas/bawah,
+    width: 300px;
+    /* perbaikan 2: mengganti 'wargin' menjadi 'margin' */
+    margin: 50px auto; /* 50px jarak atas/bawah, 'auto' menengahkan secara kiri/kanan */ 
     padding: 20px;
     background-color: white;
-    border-radius: 15px; /" membuat sudut menjadi melengkung "/
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /" Efek Bayangan "/
-    text-align: center; /" menengahkan semua teks
+    border-radius: 15px; /* membuat sudut menjadi melengkung */ 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek Bayangan */
+    text-align: center; /* menengahkan semua text di dalam kartu */
 }
 
 
 .kartu-profil img {
     width: 150px;
-    border-radius: 50%; /" trik untuk membuat gambar
+    border-radius: 50%; /* trik untuk membuat gambar berbentuk lingkaran */
 }
